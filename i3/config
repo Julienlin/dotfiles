@@ -293,7 +293,7 @@ exec --no-startup-id yakuake
 for_window [class="yakuake"] floating enable
 # for_window [class="yakuake"] move scratchpad
 # for_window [instance="yakuake"] resize set 50 ppt 30 ppt
-for_window [instance="yakuake"] move position 0 0
+# for_window [instance="yakuake"] move position 0 0
 bindsym $mod+t scratchpad show
 bindsym $mod+Shift+t move scratchpad
 
